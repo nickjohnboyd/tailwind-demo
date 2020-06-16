@@ -1,0 +1,16 @@
+﻿<div class="bg-gray-300 p-3 mt-6 rounded" role="alert">
+    <span class="oi oi-pencil mr-2" aria-hidden="true"></span>
+    <span class="font-bold">@Title</span>
+
+    <span class="">
+        Please take our
+        <a target="_blank" class="font-bold" href="https://go.microsoft.com/fwlink/?linkid=2127996">brief survey</a>
+    </span>
+    and tell us what you think.
+</div>
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string Title { get; set; }
+}
